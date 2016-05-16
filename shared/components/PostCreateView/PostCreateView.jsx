@@ -15,9 +15,6 @@ class PostCreateView extends Component {
       nameRef.value = titleRef.value = contentRef.value = '';
     }
   }
-  cancel() {
-    this.props.showAddPost = false;
-  }
 
   render() {
     const cls = `form ${(this.props.showAddPost ? 'appear' : '')}`;
@@ -29,7 +26,6 @@ class PostCreateView extends Component {
           <input placeholder="Post Title" className="form-field" ref="title"/>
           <textarea placeholder="Post Content" className="form-field" ref="content"></textarea>
           <a className="post-submit-button align-right" href="#" onClick={this.addPost}>Submit</a>
-          <a className="post-submit-button align-right" href="#" onClick={cls = 'form'}>Cancel</a>
         </div>
       </div>
     );
