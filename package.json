@@ -21,13 +21,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hashnode/mern-starter.git"
+    "url": "https://github.com/mahfuzsust/mernt.git"
   },
   "bugs": {
-    "url": "https://github.com/Hashnode/mern-starter/issues"
+    "url": "https://github.com/mahfuzsust/mernt.git/issues"
   },
-  "homepage": "https://github.com/Hashnode/mern-starter#readme",
-  "author": "Prashant Abhishek <prashant.abhishek7g@gmail.com>, Mayank Chandola <imayankchd@gmail.com>, Sandeep Panda <sandeep@hashnode.com>, Syed Fazle Rahman <fazle@hashnode.com>, Alkshendra Maurya <alkshendra@hashnode.com>",
+  "homepage": "https://github.com/mahfuzsust/mernt.git#readme",
+  "author": "Md. Mahfuzur Rahman <mahfuz@student.sust.edu>",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.4.5",
